@@ -21,6 +21,9 @@ module.exports = robot => {
     robot.respond(/siritori (.+)/i, msg => {
         const word = msg.match[1].trim();
         msg.send(s.siritori(word));
+        if(!s.isNextExist(word)){
+            msg.send('私の名前 add で新しい言葉を教えてください。');
+        }
     });
     robot.respond(/show/i, msg => {
         msg.send(s.showsirilist());

@@ -16,6 +16,22 @@ try {
     console.log(fileName + 'から復元できませんでした');
 }
 
+/**
+ * 引数に続く言葉があればtrueなければfalse
+ * @param {string}
+ * @return {boolean}
+ */
+function isNextExist(siriword){
+    let sm = sirimoji(siriword);
+    let arr = searchkasira(sm);
+
+    if(arr.length === 0){
+        return false;
+    }else{
+        return true;
+    }
+}
+
 
 /**
  * 言葉をファイルに保存する 
@@ -105,7 +121,7 @@ function siritori(siriword) {
 
     let sm = sirimoji(siriword);
     let arr = searchkasira(sm);
-    if (arr.length === 0) {
+    if (!isNextExist(siriword)) {
         return 'それに続く言葉はまだおぼえていません';
     } else {
         result = ran(arr);
@@ -135,5 +151,6 @@ module.exports = {
     addsiri,
     showsirilist,
     delsiri,
-    siritori
+    siritori,
+    isNextExist
 }

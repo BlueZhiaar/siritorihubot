@@ -3,21 +3,21 @@
 2 info using npm@6.14.10
 3 info using node@v14.15.4
 4 verbose config Skipping project config: /home/siritorihubot/.npmrc. (matches userconfig)
-5 verbose npm-session d9a7206e35006866
+5 verbose npm-session 9dd1c116cf32cc6d
 6 silly install runPreinstallTopLevelLifecycles
 7 silly preinstall siritorihubot@0.0.0
 8 info lifecycle siritorihubot@0.0.0~preinstall: siritorihubot@0.0.0
 9 silly install loadCurrentTree
 10 silly install readLocalPackageData
-11 timing stage:loadCurrentTree Completed in 616ms
+11 timing stage:loadCurrentTree Completed in 575ms
 12 silly install loadIdealTree
 13 silly install cloneCurrentTreeToIdealTree
 14 timing stage:loadIdealTree:cloneCurrentTree Completed in 2ms
 15 silly install loadShrinkwrap
-16 timing stage:loadIdealTree:loadShrinkwrap Completed in 89ms
+16 timing stage:loadIdealTree:loadShrinkwrap Completed in 82ms
 17 silly install loadAllDepsIntoIdealTree
-18 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 146ms
-19 timing stage:loadIdealTree Completed in 274ms
+18 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 130ms
+19 timing stage:loadIdealTree Completed in 245ms
 20 silly currentTree siritorihubot@0.0.0
 20 silly currentTree ├─┬ @slack/client@3.16.1-sec.2
 20 silly currentTree │ └── async@1.5.2
@@ -343,7 +343,7 @@
 21 silly idealTree │ └── async@1.0.0
 21 silly idealTree └── ws@1.1.5
 22 silly install generateActionsToTake
-23 timing stage:generateActionsToTake Completed in 139ms
+23 timing stage:generateActionsToTake Completed in 125ms
 24 silly diffTrees action count 169
 25 silly diffTrees update async@1.5.2
 26 silly diffTrees update ansi-regex@2.1.1
@@ -2178,440 +2178,440 @@
 1855 silly extract forever-agent@0.6.1
 1856 silly extract forwarded@0.2.0
 1857 silly extract fresh@0.5.2
-1858 silly tarball trying ansi-styles@2.2.1 by hash: sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
-1859 silly tarball trying ansi-regex@2.1.1 by hash: sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
-1860 silly tarball trying async@1.5.2 by hash: sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
-1861 silly tarball trying array-flatten@1.1.1 by hash: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
-1862 silly tarball trying async@0.9.2 by hash: sha1-rqdNXmHB+JlhO/ZL2mbUx48v0X0=
-1863 silly tarball trying asynckit@0.4.0 by hash: sha1-x57Zf380y48robyXkLzDZkdLS3k=
-1864 silly tarball trying assert-plus@1.0.0 by hash: sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
-1865 silly tarball trying aws4@1.11.0 by hash: sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
-1866 silly tarball trying aws-sign2@0.7.0 by hash: sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
-1867 silly tarball trying inherits@2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+1858 silly tarball trying ansi-regex@2.1.1 by hash: sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
+1859 silly tarball trying fresh@0.5.2 by hash: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
+1860 silly tarball trying forwarded@0.2.0 by hash: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==
+1861 silly tarball trying ansi-styles@2.2.1 by hash: sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
+1862 silly tarball trying async@1.5.2 by hash: sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
+1863 silly tarball trying array-flatten@1.1.1 by hash: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
+1864 silly tarball trying async@0.9.2 by hash: sha1-rqdNXmHB+JlhO/ZL2mbUx48v0X0=
+1865 silly tarball trying assert-plus@1.0.0 by hash: sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
+1866 silly tarball trying asynckit@0.4.0 by hash: sha1-x57Zf380y48robyXkLzDZkdLS3k=
+1867 silly tarball trying aws4@1.11.0 by hash: sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 1868 silly tarball trying bluebird@3.7.2 by hash: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
-1869 silly tarball trying qs@6.7.0 by hash: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
-1870 silly tarball trying bytes@3.1.0 by hash: sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
-1871 silly tarball trying cline@0.8.2 by hash: sha1-6RHnQaCtLiTSnm+rLPifoyLVnHY=
-1872 silly tarball trying caseless@0.12.0 by hash: sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
-1873 silly tarball trying coffeescript@1.6.3 by hash: sha1-QXSXUMYhplU8fAOBilOEuyTDBUE=
-1874 silly tarball trying content-disposition@0.5.3 by hash: sha512-ExO0774ikEObIAEV9kDo50o+79VCUdEB6n6lzKgGwupcVeRlhrj3qGAfwq8G6uBJjkqLrhT0qEYFcWng8z1z0g==
-1875 silly tarball trying setprototypeof@1.2.0 by hash: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
-1876 silly tarball trying colors@1.0.3 by hash: sha1-BDP0TYCWgP3rYO0mDxsMJi6CpAs=
-1877 silly tarball trying safe-buffer@5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
-1878 silly tarball trying core-util-is@1.0.2 by hash: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
-1879 silly tarball trying cookie@0.4.0 by hash: sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
-1880 silly tarball trying cookie-signature@1.0.6 by hash: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
-1881 silly tarball trying content-type@1.0.4 by hash: sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
-1882 silly tarball trying combined-stream@1.0.8 by hash: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
-1883 silly tarball trying cycle@1.0.3 by hash: sha1-IegLK+hYD5i0aPN5QwZisEbDStI=
-1884 silly tarball trying delayed-stream@1.0.0 by hash: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
-1885 silly tarball trying depd@1.1.2 by hash: sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+1869 silly tarball trying aws-sign2@0.7.0 by hash: sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
+1870 silly tarball trying qs@6.7.0 by hash: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+1871 silly tarball trying bytes@3.1.0 by hash: sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
+1872 silly tarball trying inherits@2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+1873 silly tarball trying caseless@0.12.0 by hash: sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+1874 silly tarball trying cline@0.8.2 by hash: sha1-6RHnQaCtLiTSnm+rLPifoyLVnHY=
+1875 silly tarball trying colors@1.0.3 by hash: sha1-BDP0TYCWgP3rYO0mDxsMJi6CpAs=
+1876 silly tarball trying setprototypeof@1.2.0 by hash: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
+1877 silly tarball trying coffeescript@1.6.3 by hash: sha1-QXSXUMYhplU8fAOBilOEuyTDBUE=
+1878 silly tarball trying content-type@1.0.4 by hash: sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
+1879 silly tarball trying content-disposition@0.5.3 by hash: sha512-ExO0774ikEObIAEV9kDo50o+79VCUdEB6n6lzKgGwupcVeRlhrj3qGAfwq8G6uBJjkqLrhT0qEYFcWng8z1z0g==
+1880 silly tarball trying safe-buffer@5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+1881 silly tarball trying cookie@0.4.0 by hash: sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
+1882 silly tarball trying cookie-signature@1.0.6 by hash: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
+1883 silly tarball trying core-util-is@1.0.2 by hash: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+1884 silly tarball trying cycle@1.0.3 by hash: sha1-IegLK+hYD5i0aPN5QwZisEbDStI=
+1885 silly tarball trying delayed-stream@1.0.0 by hash: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 1886 silly tarball trying dashdash@1.14.1 by hash: sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
-1887 silly tarball trying destroy@1.0.4 by hash: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
-1888 silly tarball trying ee-first@1.1.1 by hash: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
-1889 silly tarball trying double-ended-queue@2.1.0-0 by hash: sha1-ED01J/0xUo9AGIEwyEHv3XgmTlw=
-1890 silly tarball trying encodeurl@1.0.2 by hash: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
-1891 silly tarball trying es6-promise@4.2.8 by hash: sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
-1892 silly tarball trying es6-promisify@5.0.0 by hash: sha1-UQnWLz5W6pZ8S2NQWu8IKRyKUgM=
-1893 silly tarball trying escape-html@1.0.3 by hash: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
-1894 silly tarball trying agent-base@4.3.0 by hash: sha512-salcGninV0nPrwpGNn4VTXBb1SOuXQBiqbrNXoeizJsHrsL6ERFM2Ne3JUSBWRE6aeNJI2ROP/WEEIDUiDe3cg==
-1895 silly tarball trying etag@1.8.1 by hash: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
-1896 silly tarball trying escape-string-regexp@1.0.5 by hash: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
-1897 silly tarball trying eventemitter3@1.2.0 by hash: sha1-HIaZHYFq0eUEdQ5zh0Ik7PO+xQg=
-1898 silly tarball trying qs@6.7.0 by hash: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
-1899 silly tarball trying safe-buffer@5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
-1900 silly tarball trying extend@3.0.2 by hash: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
-1901 silly tarball trying extsprintf@1.3.0 by hash: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
-1902 silly tarball trying fast-deep-equal@3.1.3 by hash: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
-1903 silly tarball trying fast-json-stable-stringify@2.1.0 by hash: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
-1904 silly tarball trying eyes@0.1.8 by hash: sha1-Ys8SAjTGg3hdkCNIqADvPgzCC8A=
-1905 silly tarball trying forever-agent@0.6.1 by hash: sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
-1906 silly tarball trying forwarded@0.2.0 by hash: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==
-1907 silly tarball trying fresh@0.5.2 by hash: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
-1908 silly extract ansi-styles@2.2.1 extracted to /home/siritorihubot/node_modules/.staging/ansi-styles-22e67ceb (395ms)
-1909 silly extract cycle@1.0.3 extracted to /home/siritorihubot/node_modules/.staging/cycle-04e1dcfc (399ms)
-1910 silly extract ansi-regex@2.1.1 extracted to /home/siritorihubot/node_modules/.staging/ansi-regex-b5483c75 (414ms)
-1911 silly extract array-flatten@1.1.1 extracted to /home/siritorihubot/node_modules/.staging/array-flatten-b384b305 (415ms)
-1912 silly extract hubot-slack@4.9.0
-1913 silly extract ee-first@1.1.1 extracted to /home/siritorihubot/node_modules/.staging/ee-first-10a056d2 (418ms)
-1914 silly extract destroy@1.0.4 extracted to /home/siritorihubot/node_modules/.staging/destroy-b32dfb64 (420ms)
-1915 silly extract hubot-shipit@0.2.1
-1916 silly extract escape-html@1.0.3 extracted to /home/siritorihubot/node_modules/.staging/escape-html-2f8c1f02 (420ms)
-1917 silly extract escape-string-regexp@1.0.5 extracted to /home/siritorihubot/node_modules/.staging/escape-string-regexp-385b64af (423ms)
-1918 silly extract aws-sign2@0.7.0 extracted to /home/siritorihubot/node_modules/.staging/aws-sign2-9e7b17b0 (431ms)
+1887 silly tarball trying combined-stream@1.0.8 by hash: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
+1888 silly tarball trying destroy@1.0.4 by hash: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+1889 silly tarball trying depd@1.1.2 by hash: sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+1890 silly tarball trying double-ended-queue@2.1.0-0 by hash: sha1-ED01J/0xUo9AGIEwyEHv3XgmTlw=
+1891 silly tarball trying ee-first@1.1.1 by hash: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+1892 silly tarball trying es6-promise@4.2.8 by hash: sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
+1893 silly tarball trying es6-promisify@5.0.0 by hash: sha1-UQnWLz5W6pZ8S2NQWu8IKRyKUgM=
+1894 silly tarball trying escape-string-regexp@1.0.5 by hash: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+1895 silly tarball trying encodeurl@1.0.2 by hash: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+1896 silly tarball trying agent-base@4.3.0 by hash: sha512-salcGninV0nPrwpGNn4VTXBb1SOuXQBiqbrNXoeizJsHrsL6ERFM2Ne3JUSBWRE6aeNJI2ROP/WEEIDUiDe3cg==
+1897 silly tarball trying etag@1.8.1 by hash: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+1898 silly tarball trying escape-html@1.0.3 by hash: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+1899 silly tarball trying eventemitter3@1.2.0 by hash: sha1-HIaZHYFq0eUEdQ5zh0Ik7PO+xQg=
+1900 silly tarball trying safe-buffer@5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+1901 silly tarball trying extend@3.0.2 by hash: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+1902 silly tarball trying qs@6.7.0 by hash: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+1903 silly tarball trying extsprintf@1.3.0 by hash: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
+1904 silly tarball trying fast-deep-equal@3.1.3 by hash: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
+1905 silly tarball trying fast-json-stable-stringify@2.1.0 by hash: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
+1906 silly tarball trying eyes@0.1.8 by hash: sha1-Ys8SAjTGg3hdkCNIqADvPgzCC8A=
+1907 silly tarball trying forever-agent@0.6.1 by hash: sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
+1908 silly extract ansi-regex@2.1.1 extracted to /home/siritorihubot/node_modules/.staging/ansi-regex-b5483c75 (366ms)
+1909 silly extract escape-string-regexp@1.0.5 extracted to /home/siritorihubot/node_modules/.staging/escape-string-regexp-385b64af (364ms)
+1910 silly extract escape-html@1.0.3 extracted to /home/siritorihubot/node_modules/.staging/escape-html-2f8c1f02 (364ms)
+1911 silly extract cycle@1.0.3 extracted to /home/siritorihubot/node_modules/.staging/cycle-04e1dcfc (376ms)
+1912 silly extract array-flatten@1.1.1 extracted to /home/siritorihubot/node_modules/.staging/array-flatten-b384b305 (385ms)
+1913 silly extract hubot-slack@4.9.0
+1914 silly extract ansi-styles@2.2.1 extracted to /home/siritorihubot/node_modules/.staging/ansi-styles-22e67ceb (386ms)
+1915 silly extract encodeurl@1.0.2 extracted to /home/siritorihubot/node_modules/.staging/encodeurl-e97b9495 (382ms)
+1916 silly extract hubot-shipit@0.2.1
+1917 silly extract etag@1.8.1 extracted to /home/siritorihubot/node_modules/.staging/etag-57d42085 (382ms)
+1918 silly extract eventemitter3@1.2.0 extracted to /home/siritorihubot/node_modules/.staging/eventemitter3-bcc84d78 (382ms)
 1919 silly extract hubot-scripts@2.17.2
-1920 silly tarball trying hubot-slack@4.9.0 by hash: sha512-liNHxyii/XZe2ypXP8IEPas5paJwVVRVZYMcVy3cHlIYzRaY+99ayBptEI+KWfqzhzxnLGV2aGjHUjolBsl0iA==
-1921 silly extract hubot-rules@1.0.0
-1922 silly extract assert-plus@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/assert-plus-14a0415c (436ms)
-1923 silly extract inherits@2.0.3 extracted to /home/siritorihubot/node_modules/.staging/inherits-4002d113 (435ms)
-1924 silly extract bytes@3.1.0 extracted to /home/siritorihubot/node_modules/.staging/bytes-6375ee28 (436ms)
-1925 silly extract caseless@0.12.0 extracted to /home/siritorihubot/node_modules/.staging/caseless-fe73aedb (437ms)
-1926 silly extract content-type@1.0.4 extracted to /home/siritorihubot/node_modules/.staging/content-type-31a52c1d (436ms)
+1920 silly extract forever-agent@0.6.1 extracted to /home/siritorihubot/node_modules/.staging/forever-agent-dbdb76fe (389ms)
+1921 silly extract destroy@1.0.4 extracted to /home/siritorihubot/node_modules/.staging/destroy-b32dfb64 (395ms)
+1922 silly extract hubot-rules@1.0.0
+1923 silly extract ee-first@1.1.1 extracted to /home/siritorihubot/node_modules/.staging/ee-first-10a056d2 (396ms)
+1924 silly extract forwarded@0.2.0 extracted to /home/siritorihubot/node_modules/.staging/forwarded-ba63dc55 (396ms)
+1925 silly extract fresh@0.5.2 extracted to /home/siritorihubot/node_modules/.staging/fresh-ac9bc571 (396ms)
+1926 silly tarball trying hubot-slack@4.9.0 by hash: sha512-liNHxyii/XZe2ypXP8IEPas5paJwVVRVZYMcVy3cHlIYzRaY+99ayBptEI+KWfqzhzxnLGV2aGjHUjolBsl0iA==
 1927 silly extract hubot-redis-brain@1.0.0
-1928 silly extract cookie-signature@1.0.6 extracted to /home/siritorihubot/node_modules/.staging/cookie-signature-579aa67a (438ms)
-1929 silly tarball trying hubot-shipit@0.2.1 by hash: sha1-T7yeFhlTv3kB/cNuKnAsExA/FrI=
-1930 silly extract hubot-pugme@0.1.1
-1931 silly extract encodeurl@1.0.2 extracted to /home/siritorihubot/node_modules/.staging/encodeurl-e97b9495 (438ms)
-1932 silly extract eventemitter3@1.2.0 extracted to /home/siritorihubot/node_modules/.staging/eventemitter3-bcc84d78 (436ms)
-1933 silly extract es6-promisify@5.0.0 extracted to /home/siritorihubot/node_modules/.staging/es6-promisify-90a041df (439ms)
-1934 silly extract etag@1.8.1 extracted to /home/siritorihubot/node_modules/.staging/etag-57d42085 (438ms)
-1935 silly extract hubot-maps@0.0.3
-1936 silly extract hubot-heroku-keepalive@1.0.3
-1937 silly extract fresh@0.5.2 extracted to /home/siritorihubot/node_modules/.staging/fresh-ac9bc571 (438ms)
-1938 silly tarball trying hubot-scripts@2.17.2 by hash: sha1-mwjpB9XPq6cteDIEBnp4zp3zriQ=
-1939 silly extract hubot-help@1.0.1
-1940 silly extract forever-agent@0.6.1 extracted to /home/siritorihubot/node_modules/.staging/forever-agent-dbdb76fe (439ms)
-1941 silly extract forwarded@0.2.0 extracted to /home/siritorihubot/node_modules/.staging/forwarded-ba63dc55 (441ms)
+1928 silly extract assert-plus@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/assert-plus-14a0415c (405ms)
+1929 silly extract hubot-pugme@0.1.1
+1930 silly tarball trying hubot-shipit@0.2.1 by hash: sha1-T7yeFhlTv3kB/cNuKnAsExA/FrI=
+1931 silly extract hubot-maps@0.0.3
+1932 silly extract hubot-heroku-keepalive@1.0.3
+1933 silly tarball trying hubot-scripts@2.17.2 by hash: sha1-mwjpB9XPq6cteDIEBnp4zp3zriQ=
+1934 silly extract hubot-help@1.0.1
+1935 silly extract aws-sign2@0.7.0 extracted to /home/siritorihubot/node_modules/.staging/aws-sign2-9e7b17b0 (409ms)
+1936 silly extract bytes@3.1.0 extracted to /home/siritorihubot/node_modules/.staging/bytes-6375ee28 (409ms)
+1937 silly extract inherits@2.0.3 extracted to /home/siritorihubot/node_modules/.staging/inherits-4002d113 (409ms)
+1938 silly extract hubot-google-translate@0.2.1
+1939 silly extract caseless@0.12.0 extracted to /home/siritorihubot/node_modules/.staging/caseless-fe73aedb (413ms)
+1940 silly extract cookie-signature@1.0.6 extracted to /home/siritorihubot/node_modules/.staging/cookie-signature-579aa67a (412ms)
+1941 silly extract content-type@1.0.4 extracted to /home/siritorihubot/node_modules/.staging/content-type-31a52c1d (413ms)
 1942 silly tarball trying hubot-rules@1.0.0 by hash: sha512-IXeTYp6aK25Hgio8ezYr9vruLt1dICL9+kImaXefbfanSjNiNDvltNZfwANqeBx4Zm92A6yi36XxbWR5ZS5kNg==
-1943 silly extract hubot-google-translate@0.2.1
-1944 silly extract hubot-google-images@0.2.7
-1945 silly extract hubot-diagnostics@1.0.0
-1946 timing audit submit Completed in 502ms
-1947 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 502ms
-1948 timing audit body Completed in 2ms
-1949 silly extract hubot@3.3.2
-1950 silly extract @slack/client@3.16.1-sec.2
-1951 silly tarball trying hubot-redis-brain@1.0.0 by hash: sha512-F3udeIfYZ+49ezeWKQgcI41PblsyRnHvAWrqjJV/HGApPCxX1P0cPiNna3B/ml6V5EOOZLsVeelukwtxDhh09A==
-1952 silly extract cookie@0.4.0 extracted to /home/siritorihubot/node_modules/.staging/cookie-58eb64aa (454ms)
-1953 silly extract ws@1.1.5
-1954 silly tarball trying hubot-pugme@0.1.1 by hash: sha1-u/O5k4MVFsgU9WnPDwUxP7mjFFg=
-1955 silly extract combined-stream@1.0.8 extracted to /home/siritorihubot/node_modules/.staging/combined-stream-7327d078 (455ms)
-1956 silly extract winston@2.4.5
-1957 silly extract async@1.0.0
-1958 silly extract request@2.88.2
-1959 silly extract http-signature@1.2.0
-1960 silly tarball trying hubot-maps@0.0.3 by hash: sha1-yPxbA0h1TmJhbVuZsr85BMXuWDw=
-1961 silly tarball trying hubot-heroku-keepalive@1.0.3 by hash: sha1-KVDigJXuSmrOK3b5DiqRupHmgTw=
-1962 silly tarball trying hubot-help@1.0.1 by hash: sha512-1gL7ywROwQG6Grom68Bhi8O7YHn/qEkg3tGgap+tFejZGxVnFyJ/LcStBScW/zUj4yf0GlDaExR/vsaTjzBRsA==
-1963 silly extract jsprim@1.4.1
-1964 silly extract verror@1.10.0
-1965 silly extract express@4.17.1
-1966 silly tarball trying hubot-google-translate@0.2.1 by hash: sha1-P0lsfywgmU1ZS0t1GDiY4rYnu34=
-1967 silly tarball trying hubot-google-images@0.2.7 by hash: sha1-qKH5CU12gwvxkxdwiI+rDcDBGk0=
-1968 silly extract content-disposition@0.5.3 extracted to /home/siritorihubot/node_modules/.staging/content-disposition-976225cc (470ms)
-1969 silly tarball trying hubot-diagnostics@1.0.0 by hash: sha512-4kuR04lULoDDra/Z7B/rgMQMZW531Ve5hwhd8xNOKAl8e1cb5bZNqVpGFYF174eYcN54+RZuWQFHsntjvczyag==
-1970 silly extract safe-buffer@5.1.2 extracted to /home/siritorihubot/node_modules/.staging/safe-buffer-bfee1cff (471ms)
-1971 silly tarball trying hubot@3.3.2 by hash: sha512-+8h/s+t5GirjuDW5K1QjTGBGzOU8ksEi51HeLdFghYOWj40x6ndhAU3C6SRPk/7yHj6luVPuVi/Y8s0P+lqM9Q==
-1972 silly extract setprototypeof@1.2.0 extracted to /home/siritorihubot/node_modules/.staging/setprototypeof-16990074 (472ms)
-1973 silly tarball trying ws@1.1.5 by hash: sha512-o3KqipXNUdS7wpQzBHSe180lBGO60SoK0yVo3CYJgb2MkobuWuBX6dhkYP5ORCLd55y+SaflMOV5fqAB53ux4w==
-1974 silly extract vary@1.1.2
-1975 silly extract uuid@3.4.0
-1976 silly tarball trying winston@2.4.5 by hash: sha512-TWoamHt5yYvsMarGlGEQE59SbJHqGsZV8/lwC+iCcGeAe0vUaOh+Lv6SYM17ouzC/a/LB1/hz/7sxFBtlu1l4A==
-1977 silly tarball trying async@1.0.0 by hash: sha1-+PwEyjoTeErenhZBr5hXjPvWR6k=
-1978 silly extract delayed-stream@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/delayed-stream-915580f5 (476ms)
-1979 silly tarball trying request@2.88.2 by hash: sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
-1980 silly tarball trying http-signature@1.2.0 by hash: sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=
-1981 silly extract safe-buffer@5.1.2 extracted to /home/siritorihubot/node_modules/.staging/safe-buffer-23f7cf39 (475ms)
-1982 silly tarball trying jsprim@1.4.1 by hash: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
+1943 silly extract hubot-google-images@0.2.7
+1944 silly extract hubot-diagnostics@1.0.0
+1945 silly extract es6-promisify@5.0.0 extracted to /home/siritorihubot/node_modules/.staging/es6-promisify-90a041df (413ms)
+1946 silly extract hubot@3.3.2
+1947 silly extract @slack/client@3.16.1-sec.2
+1948 silly tarball trying hubot-redis-brain@1.0.0 by hash: sha512-F3udeIfYZ+49ezeWKQgcI41PblsyRnHvAWrqjJV/HGApPCxX1P0cPiNna3B/ml6V5EOOZLsVeelukwtxDhh09A==
+1949 silly tarball trying hubot-pugme@0.1.1 by hash: sha1-u/O5k4MVFsgU9WnPDwUxP7mjFFg=
+1950 silly extract ws@1.1.5
+1951 silly tarball trying hubot-maps@0.0.3 by hash: sha1-yPxbA0h1TmJhbVuZsr85BMXuWDw=
+1952 silly tarball trying hubot-heroku-keepalive@1.0.3 by hash: sha1-KVDigJXuSmrOK3b5DiqRupHmgTw=
+1953 silly extract safe-buffer@5.1.2 extracted to /home/siritorihubot/node_modules/.staging/safe-buffer-23f7cf39 (419ms)
+1954 silly tarball trying hubot-help@1.0.1 by hash: sha512-1gL7ywROwQG6Grom68Bhi8O7YHn/qEkg3tGgap+tFejZGxVnFyJ/LcStBScW/zUj4yf0GlDaExR/vsaTjzBRsA==
+1955 silly extract winston@2.4.5
+1956 silly extract async@1.0.0
+1957 silly extract request@2.88.2
+1958 silly tarball trying hubot-google-translate@0.2.1 by hash: sha1-P0lsfywgmU1ZS0t1GDiY4rYnu34=
+1959 silly extract cookie@0.4.0 extracted to /home/siritorihubot/node_modules/.staging/cookie-58eb64aa (429ms)
+1960 silly extract http-signature@1.2.0
+1961 silly extract jsprim@1.4.1
+1962 silly extract verror@1.10.0
+1963 silly tarball trying hubot-google-images@0.2.7 by hash: sha1-qKH5CU12gwvxkxdwiI+rDcDBGk0=
+1964 silly tarball trying hubot-diagnostics@1.0.0 by hash: sha512-4kuR04lULoDDra/Z7B/rgMQMZW531Ve5hwhd8xNOKAl8e1cb5bZNqVpGFYF174eYcN54+RZuWQFHsntjvczyag==
+1965 silly extract combined-stream@1.0.8 extracted to /home/siritorihubot/node_modules/.staging/combined-stream-7327d078 (433ms)
+1966 silly extract express@4.17.1
+1967 silly tarball trying hubot@3.3.2 by hash: sha512-+8h/s+t5GirjuDW5K1QjTGBGzOU8ksEi51HeLdFghYOWj40x6ndhAU3C6SRPk/7yHj6luVPuVi/Y8s0P+lqM9Q==
+1968 silly tarball trying ws@1.1.5 by hash: sha512-o3KqipXNUdS7wpQzBHSe180lBGO60SoK0yVo3CYJgb2MkobuWuBX6dhkYP5ORCLd55y+SaflMOV5fqAB53ux4w==
+1969 silly extract vary@1.1.2
+1970 silly tarball trying winston@2.4.5 by hash: sha512-TWoamHt5yYvsMarGlGEQE59SbJHqGsZV8/lwC+iCcGeAe0vUaOh+Lv6SYM17ouzC/a/LB1/hz/7sxFBtlu1l4A==
+1971 silly tarball trying async@1.0.0 by hash: sha1-+PwEyjoTeErenhZBr5hXjPvWR6k=
+1972 silly tarball trying request@2.88.2 by hash: sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
+1973 silly extract eyes@0.1.8 extracted to /home/siritorihubot/node_modules/.staging/eyes-07b9c519 (446ms)
+1974 timing audit submit Completed in 489ms
+1975 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 488ms
+1976 timing audit body Completed in 1ms
+1977 silly tarball trying http-signature@1.2.0 by hash: sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=
+1978 silly tarball trying jsprim@1.4.1 by hash: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
+1979 silly extract safe-buffer@5.1.2 extracted to /home/siritorihubot/node_modules/.staging/safe-buffer-bfee1cff (452ms)
+1980 silly extract setprototypeof@1.2.0 extracted to /home/siritorihubot/node_modules/.staging/setprototypeof-16990074 (453ms)
+1981 silly extract content-disposition@0.5.3 extracted to /home/siritorihubot/node_modules/.staging/content-disposition-976225cc (452ms)
+1982 silly extract uuid@3.4.0
 1983 silly tarball trying verror@1.10.0 by hash: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
-1984 silly tarball trying express@4.17.1 by hash: sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
-1985 silly extract utils-merge@1.0.1
-1986 silly extract url-join@0.0.1
+1984 silly extract delayed-stream@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/delayed-stream-915580f5 (452ms)
+1985 silly tarball trying express@4.17.1 by hash: sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
+1986 silly extract utils-merge@1.0.1
 1987 silly tarball trying @slack/client@3.16.1-sec.2 by hash: sha512-FAERJJAurczrvgShW+9V95NdVYgf8FdIexUqfBgNuToRrLRDRcWNf0nGyfKAvl2RH1ncppzJp3iXgMNJFnJXhQ==
 1988 silly tarball trying vary@1.1.2 by hash: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
-1989 silly extract har-validator@5.1.5
+1989 silly extract url-join@0.0.1
 1990 silly tarball trying uuid@3.4.0 by hash: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
-1991 silly extract ajv@6.12.6
-1992 silly extract uri-js@4.4.1
-1993 silly extract eyes@0.1.8 extracted to /home/siritorihubot/node_modules/.staging/eyes-07b9c519 (500ms)
-1994 silly tarball trying utils-merge@1.0.1 by hash: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
-1995 silly tarball trying url-join@0.0.1 by hash: sha1-HbSK1CLTQCRpqH99l73r/k+x48g=
-1996 silly extract core-util-is@1.0.2 extracted to /home/siritorihubot/node_modules/.staging/core-util-is-40344c29 (520ms)
-1997 silly tarball trying har-validator@5.1.5 by hash: sha512-nmT2T0lljbxdQZfspsno9hgrG3Uir6Ks5afism62poxqBM6sDnMEuPmzTq8XN0OEwqKLLdh1jQI3qyE66Nzb3w==
-1998 silly extract double-ended-queue@2.1.0-0 extracted to /home/siritorihubot/node_modules/.staging/double-ended-queue-72a3d6c2 (519ms)
+1991 silly extract har-validator@5.1.5
+1992 silly extract ajv@6.12.6
+1993 silly extract uri-js@4.4.1
+1994 silly extract body-parser@1.19.0
+1995 silly tarball trying utils-merge@1.0.1 by hash: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+1996 silly extract extend@3.0.2 extracted to /home/siritorihubot/node_modules/.staging/extend-8f0fc433 (487ms)
+1997 silly tarball trying url-join@0.0.1 by hash: sha1-HbSK1CLTQCRpqH99l73r/k+x48g=
+1998 silly tarball trying har-validator@5.1.5 by hash: sha512-nmT2T0lljbxdQZfspsno9hgrG3Uir6Ks5afism62poxqBM6sDnMEuPmzTq8XN0OEwqKLLdh1jQI3qyE66Nzb3w==
 1999 silly tarball trying ajv@6.12.6 by hash: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
 2000 silly tarball trying uri-js@4.4.1 by hash: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
-2001 silly extract body-parser@1.19.0
-2002 silly extract aws4@1.11.0 extracted to /home/siritorihubot/node_modules/.staging/aws4-f3c6146b (542ms)
-2003 silly extract raw-body@2.4.0
-2004 silly extract finalhandler@1.1.2
-2005 silly extract extend@3.0.2 extracted to /home/siritorihubot/node_modules/.staging/extend-8f0fc433 (544ms)
-2006 silly tarball trying body-parser@1.19.0 by hash: sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==
+2001 silly extract core-util-is@1.0.2 extracted to /home/siritorihubot/node_modules/.staging/core-util-is-40344c29 (498ms)
+2002 silly tarball trying body-parser@1.19.0 by hash: sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==
+2003 silly extract double-ended-queue@2.1.0-0 extracted to /home/siritorihubot/node_modules/.staging/double-ended-queue-72a3d6c2 (497ms)
+2004 silly extract aws4@1.11.0 extracted to /home/siritorihubot/node_modules/.staging/aws4-f3c6146b (509ms)
+2005 silly extract raw-body@2.4.0
+2006 silly extract finalhandler@1.1.2
 2007 silly extract unpipe@1.0.0
-2008 silly tarball trying raw-body@2.4.0 by hash: sha512-4Oz8DUIwdvoa5qMJelxipzi/iJIi40O5cGV1wNYp5hvZP8ZN0T+jiNkL0QepXs+EsQ9XJ8ipEDoiH70ySUJP3Q==
-2009 silly tarball trying finalhandler@1.1.2 by hash: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==
-2010 silly extract ultron@1.0.2
-2011 silly extract cline@0.8.2 extracted to /home/siritorihubot/node_modules/.staging/cline-6894108f (574ms)
+2008 silly extract ultron@1.0.2
+2009 silly tarball trying raw-body@2.4.0 by hash: sha512-4Oz8DUIwdvoa5qMJelxipzi/iJIi40O5cGV1wNYp5hvZP8ZN0T+jiNkL0QepXs+EsQ9XJ8ipEDoiH70ySUJP3Q==
+2010 silly extract extsprintf@1.3.0 extracted to /home/siritorihubot/node_modules/.staging/extsprintf-5ee7fc7d (528ms)
+2011 silly tarball trying finalhandler@1.1.2 by hash: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==
 2012 silly tarball trying unpipe@1.0.0 by hash: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 2013 silly tarball trying ultron@1.0.2 by hash: sha1-rOEWq1V80Zc4ak6I9GhTeMiy5Po=
-2014 silly extract extsprintf@1.3.0 extracted to /home/siritorihubot/node_modules/.staging/extsprintf-5ee7fc7d (584ms)
+2014 silly extract cline@0.8.2 extracted to /home/siritorihubot/node_modules/.staging/cline-6894108f (555ms)
 2015 silly extract connect-multiparty@2.2.0
-2016 silly extract multiparty@4.2.2
-2017 silly tarball trying connect-multiparty@2.2.0 by hash: sha512-zKcpA7cuXGEhuw9Pz7JmVCFmp85jzGLGm/iiagXTwyEAJp4ypLPtRS/V4IGuGb9KjjrgHBs6P/gDCpZHnFzksA==
-2018 silly extract fast-deep-equal@3.1.3 extracted to /home/siritorihubot/node_modules/.staging/fast-deep-equal-62cc676e (628ms)
-2019 silly extract agent-base@4.3.0 extracted to /home/siritorihubot/node_modules/.staging/agent-base-121af8d7 (634ms)
-2020 silly tarball trying multiparty@4.2.2 by hash: sha512-NtZLjlvsjcoGrzojtwQwn/Tm90aWJ6XXtPppYF4WmOk/6ncdwMMKggFY2NlRRN9yiCEIVxpOfPWahVEG2HAG8Q==
-2021 silly extract dashdash@1.14.1 extracted to /home/siritorihubot/node_modules/.staging/dashdash-dafffe0f (652ms)
-2022 silly extract uid-safe@2.1.5
-2023 silly extract type-is@1.6.18
-2024 silly extract async@0.9.2 extracted to /home/siritorihubot/node_modules/.staging/async-8f4fcf15 (681ms)
-2025 silly extract sshpk@1.16.1
-2026 silly tarball trying uid-safe@2.1.5 by hash: sha512-KPHm4VL5dDXKz01UuEd88Df+KzynaohSL9fBh096KWAxSKZQDI2uBrVqtvRM4rwrIrRRKsdLNML/lnaaVSRioA==
-2027 silly tarball trying type-is@1.6.18 by hash: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==
+2016 silly extract fast-deep-equal@3.1.3 extracted to /home/siritorihubot/node_modules/.staging/fast-deep-equal-62cc676e (569ms)
+2017 silly extract agent-base@4.3.0 extracted to /home/siritorihubot/node_modules/.staging/agent-base-121af8d7 (572ms)
+2018 silly tarball trying connect-multiparty@2.2.0 by hash: sha512-zKcpA7cuXGEhuw9Pz7JmVCFmp85jzGLGm/iiagXTwyEAJp4ypLPtRS/V4IGuGb9KjjrgHBs6P/gDCpZHnFzksA==
+2019 silly extract multiparty@4.2.2
+2020 silly extract uid-safe@2.1.5
+2021 silly extract type-is@1.6.18
+2022 silly tarball trying multiparty@4.2.2 by hash: sha512-NtZLjlvsjcoGrzojtwQwn/Tm90aWJ6XXtPppYF4WmOk/6ncdwMMKggFY2NlRRN9yiCEIVxpOfPWahVEG2HAG8Q==
+2023 silly tarball trying uid-safe@2.1.5 by hash: sha512-KPHm4VL5dDXKz01UuEd88Df+KzynaohSL9fBh096KWAxSKZQDI2uBrVqtvRM4rwrIrRRKsdLNML/lnaaVSRioA==
+2024 silly tarball trying type-is@1.6.18 by hash: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==
+2025 silly extract dashdash@1.14.1 extracted to /home/siritorihubot/node_modules/.staging/dashdash-dafffe0f (648ms)
+2026 silly extract async@0.9.2 extracted to /home/siritorihubot/node_modules/.staging/async-8f4fcf15 (656ms)
+2027 silly extract sshpk@1.16.1
 2028 silly extract bcrypt-pbkdf@1.0.2
 2029 silly tarball trying sshpk@1.16.1 by hash: sha512-HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==
 2030 silly tarball trying bcrypt-pbkdf@1.0.2 by hash: sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
-2031 silly extract depd@1.1.2 extracted to /home/siritorihubot/node_modules/.staging/depd-c58a096a (752ms)
-2032 silly extract tweetnacl@0.14.5
-2033 silly extract hubot-help@1.0.1 extracted to /home/siritorihubot/node_modules/.staging/hubot-help-7dc05b4a (350ms)
-2034 silly tarball trying tweetnacl@0.14.5 by hash: sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
-2035 silly extract tunnel-agent@0.6.0
-2036 silly extract asynckit@0.4.0 extracted to /home/siritorihubot/node_modules/.staging/asynckit-fb3ec002 (835ms)
-2037 silly extract vary@1.1.2 extracted to /home/siritorihubot/node_modules/.staging/vary-2d4e580c (358ms)
-2038 silly extract async@1.5.2 extracted to /home/siritorihubot/node_modules/.staging/async-0ee63f4c (851ms)
-2039 silly tarball trying tunnel-agent@0.6.0 by hash: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
-2040 silly extract utils-merge@1.0.1 extracted to /home/siritorihubot/node_modules/.staging/utils-merge-527980f0 (371ms)
-2041 silly extract tough-cookie@2.5.0
-2042 silly extract http-errors@1.7.2
-2043 silly extract hubot-maps@0.0.3 extracted to /home/siritorihubot/node_modules/.staging/hubot-maps-785638b4 (432ms)
-2044 silly extract fast-json-stable-stringify@2.1.0 extracted to /home/siritorihubot/node_modules/.staging/fast-json-stable-stringify-e411cd88 (868ms)
+2031 silly extract depd@1.1.2 extracted to /home/siritorihubot/node_modules/.staging/depd-c58a096a (761ms)
+2032 silly extract hubot-help@1.0.1 extracted to /home/siritorihubot/node_modules/.staging/hubot-help-7dc05b4a (365ms)
+2033 silly extract tweetnacl@0.14.5
+2034 silly extract tunnel-agent@0.6.0
+2035 silly tarball trying tweetnacl@0.14.5 by hash: sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+2036 silly extract asynckit@0.4.0 extracted to /home/siritorihubot/node_modules/.staging/asynckit-fb3ec002 (825ms)
+2037 silly tarball trying tunnel-agent@0.6.0 by hash: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
+2038 silly extract fast-json-stable-stringify@2.1.0 extracted to /home/siritorihubot/node_modules/.staging/fast-json-stable-stringify-e411cd88 (828ms)
+2039 silly extract vary@1.1.2 extracted to /home/siritorihubot/node_modules/.staging/vary-2d4e580c (390ms)
+2040 silly extract async@1.5.2 extracted to /home/siritorihubot/node_modules/.staging/async-0ee63f4c (845ms)
+2041 silly extract utils-merge@1.0.1 extracted to /home/siritorihubot/node_modules/.staging/utils-merge-527980f0 (391ms)
+2042 silly extract tough-cookie@2.5.0
+2043 silly extract hubot-maps@0.0.3 extracted to /home/siritorihubot/node_modules/.staging/hubot-maps-785638b4 (447ms)
+2044 silly extract http-errors@1.7.2
 2045 silly extract serve-static@1.14.1
-2046 silly tarball trying tough-cookie@2.5.0 by hash: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==
-2047 silly tarball trying http-errors@1.7.2 by hash: sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==
-2048 silly extract send@0.17.1
-2049 silly tarball trying serve-static@1.14.1 by hash: sha512-JMrvUwE54emCYWlTI+hGrGv5I8dEwmco/00EvkzIIsR7MqrHonbD9pO2MOfFnpFntl7ecpZs+3mW+XbQZu9QCg==
-2050 silly extract http-errors@1.7.3
-2051 silly extract jsprim@1.4.1 extracted to /home/siritorihubot/node_modules/.staging/jsprim-8b88e84a (437ms)
-2052 silly extract http-errors@1.8.0
-2053 silly extract hubot-rules@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/hubot-rules-23d7b18f (478ms)
-2054 silly extract url-join@0.0.1 extracted to /home/siritorihubot/node_modules/.staging/url-join-df69c66b (422ms)
-2055 silly tarball trying send@0.17.1 by hash: sha512-BsVKsiGcQMFwT8UxypobUKyv7irCNRHk1T0G680vk88yf6LBByGcZJOTJCrTP2xVN6yI+XjPJcNuE3V4fT9sAg==
-2056 silly extract har-validator@5.1.5 extracted to /home/siritorihubot/node_modules/.staging/har-validator-59439039 (424ms)
-2057 silly extract finalhandler@1.1.2 extracted to /home/siritorihubot/node_modules/.staging/finalhandler-aacc6d5d (377ms)
-2058 silly tarball trying http-errors@1.7.3 by hash: sha512-ZTTX0MWrsQ2ZAhA1cejAwDLycFsd7I7nVtnkT3Ol0aqodaKW+0CTZDQ1uBv5whptCnc8e8HeRRJxRs0kmm/Qfw==
-2059 silly tarball trying http-errors@1.8.0 by hash: sha512-4I8r0C5JDhT5VkvI47QktDW75rNlGVsUf/8hzjCC/wkWI/jdTRmBb9aI7erSG82r1bjKY3F6k28WnsVxB1C73A==
-2060 silly extract http-errors@1.7.2
-2061 silly extract toidentifier@1.0.0
-2062 silly extract chalk@1.1.3
-2063 silly extract unpipe@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/unpipe-6f0bda69 (379ms)
-2064 silly extract supports-color@2.0.0
-2065 silly extract strip-ansi@3.0.1
-2066 silly extract hubot-shipit@0.2.1 extracted to /home/siritorihubot/node_modules/.staging/hubot-shipit-9db5d724 (524ms)
-2067 silly tarball trying http-errors@1.7.2 by hash: sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==
-2068 silly tarball trying toidentifier@1.0.0 by hash: sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
-2069 silly tarball trying chalk@1.1.3 by hash: sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
-2070 silly extract statuses@1.5.0
-2071 silly tarball trying supports-color@2.0.0 by hash: sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
-2072 silly tarball trying strip-ansi@3.0.1 by hash: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
-2073 silly extract stack-trace@0.0.10
-2074 silly extract verror@1.10.0 extracted to /home/siritorihubot/node_modules/.staging/verror-41e050ec (506ms)
-2075 silly extract connect-multiparty@2.2.0 extracted to /home/siritorihubot/node_modules/.staging/connect-multiparty-94174a55 (379ms)
-2076 silly extract hubot-diagnostics@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/hubot-diagnostics-5d06626d (527ms)
-2077 silly tarball trying statuses@1.5.0 by hash: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
-2078 silly extract hubot-redis-brain@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/hubot-redis-brain-c7fb3a33 (543ms)
-2079 silly extract raw-body@2.4.0 extracted to /home/siritorihubot/node_modules/.staging/raw-body-6f3fc3e9 (439ms)
-2080 silly tarball trying stack-trace@0.0.10 by hash: sha1-VHxws0fo0ytOEI6hoqFZ5f3eGcA=
-2081 silly extract setprototypeof@1.1.1
+2046 silly extract send@0.17.1
+2047 silly extract http-errors@1.7.3
+2048 silly tarball trying tough-cookie@2.5.0 by hash: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==
+2049 silly extract http-errors@1.8.0
+2050 silly tarball trying http-errors@1.7.2 by hash: sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==
+2051 silly tarball trying serve-static@1.14.1 by hash: sha512-JMrvUwE54emCYWlTI+hGrGv5I8dEwmco/00EvkzIIsR7MqrHonbD9pO2MOfFnpFntl7ecpZs+3mW+XbQZu9QCg==
+2052 silly extract jsprim@1.4.1 extracted to /home/siritorihubot/node_modules/.staging/jsprim-8b88e84a (459ms)
+2053 silly tarball trying send@0.17.1 by hash: sha512-BsVKsiGcQMFwT8UxypobUKyv7irCNRHk1T0G680vk88yf6LBByGcZJOTJCrTP2xVN6yI+XjPJcNuE3V4fT9sAg==
+2054 silly tarball trying http-errors@1.7.3 by hash: sha512-ZTTX0MWrsQ2ZAhA1cejAwDLycFsd7I7nVtnkT3Ol0aqodaKW+0CTZDQ1uBv5whptCnc8e8HeRRJxRs0kmm/Qfw==
+2055 silly extract hubot-rules@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/hubot-rules-23d7b18f (499ms)
+2056 silly tarball trying http-errors@1.8.0 by hash: sha512-4I8r0C5JDhT5VkvI47QktDW75rNlGVsUf/8hzjCC/wkWI/jdTRmBb9aI7erSG82r1bjKY3F6k28WnsVxB1C73A==
+2057 silly extract url-join@0.0.1 extracted to /home/siritorihubot/node_modules/.staging/url-join-df69c66b (428ms)
+2058 silly extract har-validator@5.1.5 extracted to /home/siritorihubot/node_modules/.staging/har-validator-59439039 (430ms)
+2059 silly extract http-errors@1.7.2
+2060 silly extract finalhandler@1.1.2 extracted to /home/siritorihubot/node_modules/.staging/finalhandler-aacc6d5d (396ms)
+2061 silly extract unpipe@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/unpipe-6f0bda69 (396ms)
+2062 silly extract toidentifier@1.0.0
+2063 silly extract hubot-shipit@0.2.1 extracted to /home/siritorihubot/node_modules/.staging/hubot-shipit-9db5d724 (539ms)
+2064 silly extract chalk@1.1.3
+2065 silly extract supports-color@2.0.0
+2066 silly tarball trying http-errors@1.7.2 by hash: sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==
+2067 silly extract strip-ansi@3.0.1
+2068 silly extract statuses@1.5.0
+2069 silly tarball trying toidentifier@1.0.0 by hash: sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
+2070 silly extract stack-trace@0.0.10
+2071 silly extract connect-multiparty@2.2.0 extracted to /home/siritorihubot/node_modules/.staging/connect-multiparty-94174a55 (392ms)
+2072 silly tarball trying chalk@1.1.3 by hash: sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
+2073 silly tarball trying supports-color@2.0.0 by hash: sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
+2074 silly tarball trying strip-ansi@3.0.1 by hash: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+2075 silly tarball trying statuses@1.5.0 by hash: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+2076 silly extract verror@1.10.0 extracted to /home/siritorihubot/node_modules/.staging/verror-41e050ec (525ms)
+2077 silly extract hubot-diagnostics@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/hubot-diagnostics-5d06626d (542ms)
+2078 silly extract hubot-redis-brain@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/hubot-redis-brain-c7fb3a33 (556ms)
+2079 silly tarball trying stack-trace@0.0.10 by hash: sha1-VHxws0fo0ytOEI6hoqFZ5f3eGcA=
+2080 silly extract setprototypeof@1.1.1
+2081 silly extract raw-body@2.4.0 extracted to /home/siritorihubot/node_modules/.staging/raw-body-6f3fc3e9 (455ms)
 2082 silly extract ms@2.1.1
 2083 silly extract scoped-http-client@0.11.0
 2084 silly extract iconv-lite@0.4.24
-2085 silly extract ecc-jsbn@0.1.2
-2086 silly extract hubot-pugme@0.1.1 extracted to /home/siritorihubot/node_modules/.staging/hubot-pugme-baf8ad7f (567ms)
+2085 silly extract hubot-pugme@0.1.1 extracted to /home/siritorihubot/node_modules/.staging/hubot-pugme-baf8ad7f (579ms)
+2086 silly extract uid-safe@2.1.5 extracted to /home/siritorihubot/node_modules/.staging/uid-safe-2d58cfd0 (382ms)
 2087 silly tarball trying setprototypeof@1.1.1 by hash: sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
-2088 silly tarball trying ms@2.1.1 by hash: sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
-2089 silly extract hubot-google-translate@0.2.1 extracted to /home/siritorihubot/node_modules/.staging/hubot-google-translate-23456d78 (568ms)
-2090 silly tarball trying scoped-http-client@0.11.0 by hash: sha1-iH+oKoNg8V1jmlLlBOVjwVfSbXQ=
-2091 silly tarball trying iconv-lite@0.4.24 by hash: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
-2092 silly tarball trying ecc-jsbn@0.1.2 by hash: sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
-2093 silly extract uid-safe@2.1.5 extracted to /home/siritorihubot/node_modules/.staging/uid-safe-2d58cfd0 (362ms)
+2088 silly extract type-is@1.6.18 extracted to /home/siritorihubot/node_modules/.staging/type-is-b075384e (381ms)
+2089 silly extract ecc-jsbn@0.1.2
+2090 silly extract hubot-google-translate@0.2.1 extracted to /home/siritorihubot/node_modules/.staging/hubot-google-translate-23456d78 (586ms)
+2091 silly tarball trying ms@2.1.1 by hash: sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
+2092 silly tarball trying scoped-http-client@0.11.0 by hash: sha1-iH+oKoNg8V1jmlLlBOVjwVfSbXQ=
+2093 silly tarball trying iconv-lite@0.4.24 by hash: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
 2094 silly extract asn1@0.2.4
-2095 silly extract type-is@1.6.18 extracted to /home/siritorihubot/node_modules/.staging/type-is-b075384e (362ms)
-2096 silly extract ultron@1.0.2 extracted to /home/siritorihubot/node_modules/.staging/ultron-ac55581a (461ms)
-2097 silly extract hubot-google-images@0.2.7 extracted to /home/siritorihubot/node_modules/.staging/hubot-google-images-8bdb894e (584ms)
-2098 silly extract safer-buffer@2.1.2
-2099 silly tarball trying asn1@0.2.4 by hash: sha512-jxwzQpLQjSmWXgwaCZE9Nz+glAG01yF1QnWgbhGwHI5A6FRIEY6IVqtHhIepHqI7/kyEyQEagBC5mBEFlIYvdg==
-2100 silly extract safe-buffer@5.2.1
-2101 silly extract retry@0.9.0
-2102 silly extract redis@2.8.0
-2103 silly extract hubot-heroku-keepalive@1.0.3 extracted to /home/siritorihubot/node_modules/.staging/hubot-heroku-keepalive-30405c77 (611ms)
-2104 silly extract redis-parser@2.6.0
-2105 silly tarball trying safer-buffer@2.1.2 by hash: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-2106 silly tarball trying safe-buffer@5.2.1 by hash: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
-2107 silly extract multiparty@4.2.2 extracted to /home/siritorihubot/node_modules/.staging/multiparty-c27611c5 (455ms)
-2108 silly tarball trying retry@0.9.0 by hash: sha1-b2l+UKDk3cjI9/tUeptg3q1DZ40=
+2095 silly extract safer-buffer@2.1.2
+2096 silly tarball trying ecc-jsbn@0.1.2 by hash: sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
+2097 silly extract safe-buffer@5.2.1
+2098 silly extract ultron@1.0.2 extracted to /home/siritorihubot/node_modules/.staging/ultron-ac55581a (480ms)
+2099 silly extract retry@0.9.0
+2100 silly extract hubot-google-images@0.2.7 extracted to /home/siritorihubot/node_modules/.staging/hubot-google-images-8bdb894e (603ms)
+2101 silly tarball trying asn1@0.2.4 by hash: sha512-jxwzQpLQjSmWXgwaCZE9Nz+glAG01yF1QnWgbhGwHI5A6FRIEY6IVqtHhIepHqI7/kyEyQEagBC5mBEFlIYvdg==
+2102 silly tarball trying safer-buffer@2.1.2 by hash: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+2103 silly tarball trying safe-buffer@5.2.1 by hash: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
+2104 silly extract hubot-heroku-keepalive@1.0.3 extracted to /home/siritorihubot/node_modules/.staging/hubot-heroku-keepalive-30405c77 (621ms)
+2105 silly extract redis@2.8.0
+2106 silly tarball trying retry@0.9.0 by hash: sha1-b2l+UKDk3cjI9/tUeptg3q1DZ40=
+2107 silly extract redis-parser@2.6.0
+2108 silly extract redis-commands@1.7.0
 2109 silly tarball trying redis@2.8.0 by hash: sha512-M1OkonEQwtRmZv4tEWF2VgpG0JWJ8Fv1PhlgT5+B+uNq2cA3Rt1Yt/ryoR+vQNOQcIEgdCdfH0jr3bDpihAw1A==
-2110 silly extract redis-commands@1.7.0
+2110 silly extract multiparty@4.2.2 extracted to /home/siritorihubot/node_modules/.staging/multiparty-c27611c5 (475ms)
 2111 silly tarball trying redis-parser@2.6.0 by hash: sha1-Uu0J2srBCPGmMcB+m2mUHnoZUEs=
-2112 silly extract inherits@2.0.3
+2112 silly extract qs@6.7.0 extracted to /home/siritorihubot/node_modules/.staging/qs-a29fa812 (1065ms)
 2113 silly tarball trying redis-commands@1.7.0 by hash: sha512-nJWqw3bTFy21hX/CPKHth6sfhZbdiHP6bTawSgQBlKOVRG7EZkfHbbHwQJnrE4vsQf0CMNE+3gJ4Fmm16vdVlQ==
-2114 silly extract qs@6.7.0 extracted to /home/siritorihubot/node_modules/.staging/qs-3d8a793e (1109ms)
-2115 silly tarball trying inherits@2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
-2116 silly extract qs@6.7.0 extracted to /home/siritorihubot/node_modules/.staging/qs-a29fa812 (1119ms)
-2117 silly extract range-parser@1.2.1
-2118 silly extract bcrypt-pbkdf@1.0.2 extracted to /home/siritorihubot/node_modules/.staging/bcrypt-pbkdf-a809bcd7 (425ms)
-2119 silly extract http-signature@1.2.0 extracted to /home/siritorihubot/node_modules/.staging/http-signature-32d5797e (687ms)
-2120 silly extract random-bytes@1.0.0
-2121 silly extract tunnel-agent@0.6.0 extracted to /home/siritorihubot/node_modules/.staging/tunnel-agent-f319f362 (331ms)
-2122 silly tarball trying range-parser@1.2.1 by hash: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
-2123 silly extract qs@6.5.2
-2124 silly extract async@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/async-753dcdbe (714ms)
-2125 silly extract punycode@2.1.1
-2126 silly tarball trying random-bytes@1.0.0 by hash: sha1-T2ih3Arli9P7lYSMMDJNt11kNgs=
-2127 silly extract psl@1.8.0
-2128 silly tarball trying qs@6.5.2 by hash: sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
-2129 silly extract proxy-addr@2.0.7
+2114 silly extract inherits@2.0.3
+2115 silly extract bcrypt-pbkdf@1.0.2 extracted to /home/siritorihubot/node_modules/.staging/bcrypt-pbkdf-a809bcd7 (405ms)
+2116 silly extract range-parser@1.2.1
+2117 silly extract qs@6.7.0 extracted to /home/siritorihubot/node_modules/.staging/qs-3d8a793e (1100ms)
+2118 silly tarball trying inherits@2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+2119 silly extract random-bytes@1.0.0
+2120 silly tarball trying range-parser@1.2.1 by hash: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+2121 silly extract tunnel-agent@0.6.0 extracted to /home/siritorihubot/node_modules/.staging/tunnel-agent-f319f362 (320ms)
+2122 silly extract qs@6.5.2
+2123 silly extract http-signature@1.2.0 extracted to /home/siritorihubot/node_modules/.staging/http-signature-32d5797e (695ms)
+2124 silly tarball trying random-bytes@1.0.0 by hash: sha1-T2ih3Arli9P7lYSMMDJNt11kNgs=
+2125 silly tarball trying qs@6.5.2 by hash: sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+2126 silly extract async@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/async-753dcdbe (720ms)
+2127 silly extract punycode@2.1.1
+2128 silly extract psl@1.8.0
+2129 silly extract body-parser@1.19.0 extracted to /home/siritorihubot/node_modules/.staging/body-parser-d9163a69 (679ms)
 2130 silly tarball trying punycode@2.1.1 by hash: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-2131 silly tarball trying psl@1.8.0 by hash: sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
-2132 silly extract body-parser@1.19.0 extracted to /home/siritorihubot/node_modules/.staging/body-parser-d9163a69 (676ms)
-2133 silly extract http-errors@1.7.2 extracted to /home/siritorihubot/node_modules/.staging/http-errors-6298470e (358ms)
+2131 silly extract proxy-addr@2.0.7
+2132 silly tarball trying psl@1.8.0 by hash: sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
+2133 silly extract pkginfo@0.4.1
 2134 silly tarball trying proxy-addr@2.0.7 by hash: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==
-2135 silly extract pkginfo@0.4.1
-2136 silly extract toidentifier@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/toidentifier-f1287334 (307ms)
-2137 silly extract chalk@1.1.3 extracted to /home/siritorihubot/node_modules/.staging/chalk-6c2535b7 (306ms)
-2138 silly extract performance-now@2.1.0
-2139 silly extract supports-color@2.0.0 extracted to /home/siritorihubot/node_modules/.staging/supports-color-318f0df7 (309ms)
-2140 silly extract strip-ansi@3.0.1 extracted to /home/siritorihubot/node_modules/.staging/strip-ansi-0c0c0d3b (310ms)
-2141 silly extract http-errors@1.7.3 extracted to /home/siritorihubot/node_modules/.staging/http-errors-2de9346a (354ms)
-2142 silly extract http-errors@1.8.0 extracted to /home/siritorihubot/node_modules/.staging/http-errors-bb47bc38 (354ms)
-2143 silly tarball trying pkginfo@0.4.1 by hash: sha1-tUGO8EOd5UJfxJlQQtztFPsqhP8=
-2144 silly extract serve-static@1.14.1 extracted to /home/siritorihubot/node_modules/.staging/serve-static-c06e18a9 (387ms)
+2135 silly extract http-errors@1.7.2 extracted to /home/siritorihubot/node_modules/.staging/http-errors-6298470e (333ms)
+2136 silly tarball trying pkginfo@0.4.1 by hash: sha1-tUGO8EOd5UJfxJlQQtztFPsqhP8=
+2137 silly extract toidentifier@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/toidentifier-f1287334 (287ms)
+2138 silly extract http-errors@1.7.3 extracted to /home/siritorihubot/node_modules/.staging/http-errors-2de9346a (333ms)
+2139 silly extract http-errors@1.8.0 extracted to /home/siritorihubot/node_modules/.staging/http-errors-bb47bc38 (335ms)
+2140 silly extract performance-now@2.1.0
+2141 silly extract supports-color@2.0.0 extracted to /home/siritorihubot/node_modules/.staging/supports-color-318f0df7 (290ms)
+2142 silly extract chalk@1.1.3 extracted to /home/siritorihubot/node_modules/.staging/chalk-6c2535b7 (294ms)
+2143 silly extract serve-static@1.14.1 extracted to /home/siritorihubot/node_modules/.staging/serve-static-c06e18a9 (364ms)
+2144 silly extract strip-ansi@3.0.1 extracted to /home/siritorihubot/node_modules/.staging/strip-ansi-0c0c0d3b (293ms)
 2145 silly extract path-to-regexp@0.1.7
 2146 silly extract parseurl@1.3.3
-2147 silly tarball trying performance-now@2.1.0 by hash: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
-2148 silly extract optparse@1.0.4
+2147 silly extract optparse@1.0.4
+2148 silly tarball trying performance-now@2.1.0 by hash: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 2149 silly extract options@0.0.6
-2150 silly extract http-errors@1.7.2 extracted to /home/siritorihubot/node_modules/.staging/http-errors-9ec69d38 (356ms)
-2151 silly extract on-finished@2.3.0
+2150 silly extract on-finished@2.3.0
+2151 silly extract http-errors@1.7.2 extracted to /home/siritorihubot/node_modules/.staging/http-errors-9ec69d38 (335ms)
 2152 silly extract oauth-sign@0.9.0
-2153 silly extract accepts@1.3.7
-2154 silly tarball trying path-to-regexp@0.1.7 by hash: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
-2155 silly tarball trying parseurl@1.3.3 by hash: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
-2156 silly extract uuid@3.4.0 extracted to /home/siritorihubot/node_modules/.staging/uuid-ce368aa3 (818ms)
-2157 silly extract send@0.17.1 extracted to /home/siritorihubot/node_modules/.staging/send-edf2546f (406ms)
-2158 silly extract colors@1.0.3 extracted to /home/siritorihubot/node_modules/.staging/colors-42d3394d (1296ms)
-2159 silly tarball trying optparse@1.0.4 by hash: sha1-wGJXnS0F0kPCIaMEpx4Ml5YjzPE=
-2160 silly tarball trying options@0.0.6 by hash: sha1-7CLTEoBrtT5zF3Pnza788cZDEo8=
-2161 silly extract negotiator@0.6.2
-2162 silly tarball trying on-finished@2.3.0 by hash: sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
-2163 silly tarball trying oauth-sign@0.9.0 by hash: sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
-2164 silly tarball trying accepts@1.3.7 by hash: sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==
-2165 silly extract ms@2.1.1 extracted to /home/siritorihubot/node_modules/.staging/ms-3b24006c (323ms)
-2166 silly extract debug@2.6.9
-2167 silly extract ms@2.0.0
-2168 silly extract form-data@2.3.3
-2169 silly tarball trying negotiator@0.6.2 by hash: sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
-2170 silly extract mime-types@2.1.32
-2171 silly tarball trying debug@2.6.9 by hash: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
-2172 silly tarball trying ms@2.0.0 by hash: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
-2173 silly tarball trying form-data@2.3.3 by hash: sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==
-2174 silly extract stack-trace@0.0.10 extracted to /home/siritorihubot/node_modules/.staging/stack-trace-8e1256ac (397ms)
+2153 silly extract send@0.17.1 extracted to /home/siritorihubot/node_modules/.staging/send-edf2546f (385ms)
+2154 silly extract accepts@1.3.7
+2155 silly tarball trying path-to-regexp@0.1.7 by hash: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+2156 silly tarball trying parseurl@1.3.3 by hash: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
+2157 silly tarball trying optparse@1.0.4 by hash: sha1-wGJXnS0F0kPCIaMEpx4Ml5YjzPE=
+2158 silly tarball trying options@0.0.6 by hash: sha1-7CLTEoBrtT5zF3Pnza788cZDEo8=
+2159 silly tarball trying on-finished@2.3.0 by hash: sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
+2160 silly extract negotiator@0.6.2
+2161 silly tarball trying oauth-sign@0.9.0 by hash: sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
+2162 silly extract colors@1.0.3 extracted to /home/siritorihubot/node_modules/.staging/colors-42d3394d (1273ms)
+2163 silly extract uuid@3.4.0 extracted to /home/siritorihubot/node_modules/.staging/uuid-ce368aa3 (823ms)
+2164 silly extract debug@2.6.9
+2165 silly tarball trying accepts@1.3.7 by hash: sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==
+2166 silly extract ms@2.1.1 extracted to /home/siritorihubot/node_modules/.staging/ms-3b24006c (303ms)
+2167 silly tarball trying negotiator@0.6.2 by hash: sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
+2168 silly extract ms@2.0.0
+2169 silly extract form-data@2.3.3
+2170 silly tarball trying debug@2.6.9 by hash: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+2171 silly extract mime-types@2.1.32
+2172 silly extract stack-trace@0.0.10 extracted to /home/siritorihubot/node_modules/.staging/stack-trace-8e1256ac (370ms)
+2173 silly tarball trying ms@2.0.0 by hash: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+2174 silly tarball trying form-data@2.3.3 by hash: sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==
 2175 silly tarball trying mime-types@2.1.32 by hash: sha512-hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==
-2176 silly extract ws@1.1.5 extracted to /home/siritorihubot/node_modules/.staging/ws-68f7ace1 (927ms)
-2177 silly extract mime-db@1.49.0
-2178 silly extract setprototypeof@1.1.1 extracted to /home/siritorihubot/node_modules/.staging/setprototypeof-4394a815 (406ms)
-2179 silly extract mime@1.6.0
-2180 silly extract statuses@1.5.0 extracted to /home/siritorihubot/node_modules/.staging/statuses-515edacc (452ms)
-2181 silly tarball trying mime-db@1.49.0 by hash: sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==
-2182 silly extract methods@1.1.2
+2176 silly extract mime-db@1.49.0
+2177 silly extract setprototypeof@1.1.1 extracted to /home/siritorihubot/node_modules/.staging/setprototypeof-4394a815 (383ms)
+2178 silly extract statuses@1.5.0 extracted to /home/siritorihubot/node_modules/.staging/statuses-515edacc (420ms)
+2179 silly tarball trying mime-db@1.49.0 by hash: sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==
+2180 silly extract mime@1.6.0
+2181 silly extract methods@1.1.2
+2182 silly extract ws@1.1.5 extracted to /home/siritorihubot/node_modules/.staging/ws-68f7ace1 (963ms)
 2183 silly tarball trying mime@1.6.0 by hash: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
-2184 silly extract merge-descriptors@1.0.1
-2185 silly tarball trying methods@1.1.2 by hash: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
-2186 silly tarball trying merge-descriptors@1.0.1 by hash: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
-2187 silly extract inherits@2.0.3 extracted to /home/siritorihubot/node_modules/.staging/inherits-9a0d80f1 (372ms)
-2188 silly extract safe-buffer@5.2.1 extracted to /home/siritorihubot/node_modules/.staging/safe-buffer-54719448 (448ms)
-2189 silly extract media-typer@0.3.0
-2190 silly extract range-parser@1.2.1 extracted to /home/siritorihubot/node_modules/.staging/range-parser-b42b2c41 (377ms)
-2191 silly extract tough-cookie@2.5.0 extracted to /home/siritorihubot/node_modules/.staging/tough-cookie-2b297aa3 (651ms)
-2192 silly tarball trying media-typer@0.3.0 by hash: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
-2193 silly extract log@1.4.0
-2194 silly extract random-bytes@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/random-bytes-dfd78984 (377ms)
-2195 silly extract lodash@4.17.21
-2196 silly extract safer-buffer@2.1.2 extracted to /home/siritorihubot/node_modules/.staging/safer-buffer-e353a5c9 (501ms)
-2197 silly extract json-stringify-safe@5.0.1
-2198 silly tarball trying log@1.4.0 by hash: sha1-S6HYkP3iSbAx3KA7w36q8yVlbxw=
-2199 silly extract json-schema-traverse@0.4.1
+2184 silly tarball trying methods@1.1.2 by hash: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+2185 silly extract merge-descriptors@1.0.1
+2186 silly extract safe-buffer@5.2.1 extracted to /home/siritorihubot/node_modules/.staging/safe-buffer-54719448 (411ms)
+2187 silly extract inherits@2.0.3 extracted to /home/siritorihubot/node_modules/.staging/inherits-9a0d80f1 (340ms)
+2188 silly tarball trying merge-descriptors@1.0.1 by hash: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+2189 silly extract range-parser@1.2.1 extracted to /home/siritorihubot/node_modules/.staging/range-parser-b42b2c41 (350ms)
+2190 silly extract media-typer@0.3.0
+2191 silly extract log@1.4.0
+2192 silly extract random-bytes@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/random-bytes-dfd78984 (353ms)
+2193 silly extract safer-buffer@2.1.2 extracted to /home/siritorihubot/node_modules/.staging/safer-buffer-e353a5c9 (468ms)
+2194 silly extract lodash@4.17.21
+2195 silly extract tough-cookie@2.5.0 extracted to /home/siritorihubot/node_modules/.staging/tough-cookie-2b297aa3 (625ms)
+2196 silly tarball trying media-typer@0.3.0 by hash: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+2197 silly tarball trying log@1.4.0 by hash: sha1-S6HYkP3iSbAx3KA7w36q8yVlbxw=
+2198 silly extract express@4.17.1 extracted to /home/siritorihubot/node_modules/.staging/express-87416089 (1048ms)
+2199 silly extract json-stringify-safe@5.0.1
 2200 silly tarball trying lodash@4.17.21 by hash: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
-2201 silly extract json-schema@0.2.3
-2202 silly tarball trying json-stringify-safe@5.0.1 by hash: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
-2203 silly extract request@2.88.2 extracted to /home/siritorihubot/node_modules/.staging/request-6907681c (1115ms)
-2204 silly tarball trying json-schema-traverse@0.4.1 by hash: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
-2205 silly extract express@4.17.1 extracted to /home/siritorihubot/node_modules/.staging/express-87416089 (1128ms)
-2206 silly tarball trying json-schema@0.2.3 by hash: sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
-2207 silly extract jsbn@0.1.1
-2208 silly extract asn1@0.2.4 extracted to /home/siritorihubot/node_modules/.staging/asn1-993058b5 (577ms)
-2209 silly extract proxy-addr@2.0.7 extracted to /home/siritorihubot/node_modules/.staging/proxy-addr-39de8c7e (408ms)
-2210 silly extract redis-commands@1.7.0 extracted to /home/siritorihubot/node_modules/.staging/redis-commands-1e63eb58 (533ms)
+2201 silly extract json-schema-traverse@0.4.1
+2202 silly extract json-schema@0.2.3
+2203 silly extract jsbn@0.1.1
+2204 silly tarball trying json-stringify-safe@5.0.1 by hash: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
+2205 silly tarball trying json-schema-traverse@0.4.1 by hash: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
+2206 silly extract request@2.88.2 extracted to /home/siritorihubot/node_modules/.staging/request-6907681c (1105ms)
+2207 silly tarball trying json-schema@0.2.3 by hash: sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
+2208 silly tarball trying jsbn@0.1.1 by hash: sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+2209 silly extract asn1@0.2.4 extracted to /home/siritorihubot/node_modules/.staging/asn1-993058b5 (549ms)
+2210 silly extract redis-commands@1.7.0 extracted to /home/siritorihubot/node_modules/.staging/redis-commands-1e63eb58 (508ms)
 2211 silly extract isstream@0.1.2
-2212 silly tarball trying jsbn@0.1.1 by hash: sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+2212 silly extract proxy-addr@2.0.7 extracted to /home/siritorihubot/node_modules/.staging/proxy-addr-39de8c7e (390ms)
 2213 silly extract is-typedarray@1.0.0
 2214 silly extract ipaddr.js@1.9.1
-2215 silly extract punycode@2.1.1 extracted to /home/siritorihubot/node_modules/.staging/punycode-ecd40a54 (457ms)
+2215 silly tarball trying isstream@0.1.2 by hash: sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 2216 silly extract inherits@2.0.4
-2217 silly extract oauth-sign@0.9.0 extracted to /home/siritorihubot/node_modules/.staging/oauth-sign-a6d55afe (356ms)
-2218 silly tarball trying isstream@0.1.2 by hash: sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
-2219 silly extract path-to-regexp@0.1.7 extracted to /home/siritorihubot/node_modules/.staging/path-to-regexp-520654b4 (383ms)
-2220 silly extract parseurl@1.3.3 extracted to /home/siritorihubot/node_modules/.staging/parseurl-258d1c6b (382ms)
-2221 silly tarball trying is-typedarray@1.0.0 by hash: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+2217 silly extract punycode@2.1.1 extracted to /home/siritorihubot/node_modules/.staging/punycode-ecd40a54 (442ms)
+2218 silly extract oauth-sign@0.9.0 extracted to /home/siritorihubot/node_modules/.staging/oauth-sign-a6d55afe (344ms)
+2219 silly extract path-to-regexp@0.1.7 extracted to /home/siritorihubot/node_modules/.staging/path-to-regexp-520654b4 (369ms)
+2220 silly tarball trying is-typedarray@1.0.0 by hash: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+2221 silly extract parseurl@1.3.3 extracted to /home/siritorihubot/node_modules/.staging/parseurl-258d1c6b (369ms)
 2222 silly tarball trying ipaddr.js@1.9.1 by hash: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
-2223 silly extract redis@0.8.4
-2224 silly tarball trying inherits@2.0.4 by hash: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
-2225 silly extract on-finished@2.3.0 extracted to /home/siritorihubot/node_modules/.staging/on-finished-9b4ad95f (373ms)
-2226 silly extract https-proxy-agent@2.2.4
-2227 silly extract accepts@1.3.7 extracted to /home/siritorihubot/node_modules/.staging/accepts-e9e3ebbc (371ms)
-2228 silly extract ms@2.0.0 extracted to /home/siritorihubot/node_modules/.staging/ms-271b3c9b (345ms)
-2229 silly extract debug@3.2.7
-2230 silly extract ms@2.1.3
+2223 silly tarball trying inherits@2.0.4 by hash: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+2224 silly extract redis@0.8.4
+2225 silly extract https-proxy-agent@2.2.4
+2226 silly extract on-finished@2.3.0 extracted to /home/siritorihubot/node_modules/.staging/on-finished-9b4ad95f (371ms)
+2227 silly extract accepts@1.3.7 extracted to /home/siritorihubot/node_modules/.staging/accepts-e9e3ebbc (366ms)
+2228 silly extract debug@3.2.7
+2229 silly extract ms@2.1.3
+2230 silly extract options@0.0.6 extracted to /home/siritorihubot/node_modules/.staging/options-e81fc5fa (388ms)
 2231 silly tarball trying redis@0.8.4 by hash: sha1-FGCfJkFOIRwx480H3HmwS/n/GYA=
-2232 silly extract options@0.0.6 extracted to /home/siritorihubot/node_modules/.staging/options-e81fc5fa (399ms)
-2233 silly extract has-ansi@2.0.0
-2234 silly tarball trying https-proxy-agent@2.2.4 by hash: sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
+2232 silly extract ms@2.0.0 extracted to /home/siritorihubot/node_modules/.staging/ms-271b3c9b (341ms)
+2233 silly tarball trying https-proxy-agent@2.2.4 by hash: sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
+2234 silly extract has-ansi@2.0.0
 2235 silly extract har-schema@2.0.0
-2236 silly extract tweetnacl@0.14.5 extracted to /home/siritorihubot/node_modules/.staging/tweetnacl-dce8224f (902ms)
-2237 silly tarball trying debug@3.2.7 by hash: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
-2238 silly tarball trying ms@2.1.3 by hash: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
-2239 silly extract getpass@0.1.7
-2240 silly extract scoped-http-client@0.11.0 extracted to /home/siritorihubot/node_modules/.staging/scoped-http-client-230187dd (693ms)
-2241 silly extract ecc-jsbn@0.1.2 extracted to /home/siritorihubot/node_modules/.staging/ecc-jsbn-b50c0683 (692ms)
+2236 silly tarball trying debug@3.2.7 by hash: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
+2237 silly tarball trying ms@2.1.3 by hash: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
+2238 silly extract scoped-http-client@0.11.0 extracted to /home/siritorihubot/node_modules/.staging/scoped-http-client-230187dd (670ms)
+2239 silly extract ecc-jsbn@0.1.2 extracted to /home/siritorihubot/node_modules/.staging/ecc-jsbn-b50c0683 (671ms)
+2240 silly extract getpass@0.1.7
+2241 silly extract tweetnacl@0.14.5 extracted to /home/siritorihubot/node_modules/.staging/tweetnacl-dce8224f (870ms)
 2242 silly tarball trying has-ansi@2.0.0 by hash: sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=
-2243 silly tarball trying har-schema@2.0.0 by hash: sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
-2244 silly extract redis-parser@2.6.0 extracted to /home/siritorihubot/node_modules/.staging/redis-parser-ada28815 (651ms)
+2243 silly extract redis-parser@2.6.0 extracted to /home/siritorihubot/node_modules/.staging/redis-parser-ada28815 (629ms)
+2244 silly tarball trying har-schema@2.0.0 by hash: sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
 2245 silly tarball trying getpass@0.1.7 by hash: sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
-2246 silly extract es6-promise@4.2.8 extracted to /home/siritorihubot/node_modules/.staging/es6-promise-865c0b5e (1727ms)
-2247 silly extract mime-types@2.1.32 extracted to /home/siritorihubot/node_modules/.staging/mime-types-63e8e1ec (416ms)
-2248 silly extract coffeescript@1.6.3 extracted to /home/siritorihubot/node_modules/.staging/coffeescript-f09b8ae5 (1784ms)
-2249 silly extract methods@1.1.2 extracted to /home/siritorihubot/node_modules/.staging/methods-35d403d1 (359ms)
-2250 silly extract merge-descriptors@1.0.1 extracted to /home/siritorihubot/node_modules/.staging/merge-descriptors-e297a32f (354ms)
-2251 silly extract optparse@1.0.4 extracted to /home/siritorihubot/node_modules/.staging/optparse-c6e522b1 (518ms)
+2246 silly extract es6-promise@4.2.8 extracted to /home/siritorihubot/node_modules/.staging/es6-promise-865c0b5e (1713ms)
+2247 silly extract mime-types@2.1.32 extracted to /home/siritorihubot/node_modules/.staging/mime-types-63e8e1ec (412ms)
+2248 silly extract methods@1.1.2 extracted to /home/siritorihubot/node_modules/.staging/methods-35d403d1 (360ms)
+2249 silly extract optparse@1.0.4 extracted to /home/siritorihubot/node_modules/.staging/optparse-c6e522b1 (512ms)
+2250 silly extract coffeescript@1.6.3 extracted to /home/siritorihubot/node_modules/.staging/coffeescript-f09b8ae5 (1760ms)
+2251 silly extract retry@0.9.0 extracted to /home/siritorihubot/node_modules/.staging/retry-340f6c96 (758ms)
 2252 silly extract negotiator@0.6.2 extracted to /home/siritorihubot/node_modules/.staging/negotiator-9e35f2ff (518ms)
-2253 silly extract retry@0.9.0 extracted to /home/siritorihubot/node_modules/.staging/retry-340f6c96 (775ms)
-2254 silly extract media-typer@0.3.0 extracted to /home/siritorihubot/node_modules/.staging/media-typer-9bfb7aea (354ms)
-2255 silly extract pkginfo@0.4.1 extracted to /home/siritorihubot/node_modules/.staging/pkginfo-af726dd8 (703ms)
-2256 silly extract is-typedarray@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/is-typedarray-2c7a2c23 (336ms)
-2257 silly extract inherits@2.0.4 extracted to /home/siritorihubot/node_modules/.staging/inherits-ea84b8a1 (333ms)
-2258 silly extract ms@2.1.3 extracted to /home/siritorihubot/node_modules/.staging/ms-014ddfed (314ms)
-2259 silly extract has-ansi@2.0.0 extracted to /home/siritorihubot/node_modules/.staging/has-ansi-c6ec7937 (311ms)
-2260 silly extract mime@1.6.0 extracted to /home/siritorihubot/node_modules/.staging/mime-97e4ce1d (585ms)
-2261 silly extract performance-now@2.1.0 extracted to /home/siritorihubot/node_modules/.staging/performance-now-891256d5 (758ms)
-2262 silly extract form-data@2.3.3 extracted to /home/siritorihubot/node_modules/.staging/form-data-a14ad65f (690ms)
-2263 silly extract json-stringify-safe@5.0.1 extracted to /home/siritorihubot/node_modules/.staging/json-stringify-safe-0835ec43 (487ms)
-2264 silly extract jsbn@0.1.1 extracted to /home/siritorihubot/node_modules/.staging/jsbn-f6f76796 (439ms)
-2265 silly extract getpass@0.1.7 extracted to /home/siritorihubot/node_modules/.staging/getpass-9f589141 (351ms)
-2266 silly extract isstream@0.1.2 extracted to /home/siritorihubot/node_modules/.staging/isstream-ab5b4e81 (421ms)
-2267 silly extract json-schema-traverse@0.4.1 extracted to /home/siritorihubot/node_modules/.staging/json-schema-traverse-33dbf98b (500ms)
-2268 silly extract https-proxy-agent@2.2.4 extracted to /home/siritorihubot/node_modules/.staging/https-proxy-agent-07462cfa (398ms)
-2269 silly extract debug@2.6.9 extracted to /home/siritorihubot/node_modules/.staging/debug-cd11a215 (740ms)
-2270 silly extract ipaddr.js@1.9.1 extracted to /home/siritorihubot/node_modules/.staging/ipaddr.js-7093d8c0 (433ms)
-2271 silly extract log@1.4.0 extracted to /home/siritorihubot/node_modules/.staging/log-0a517159 (542ms)
-2272 silly extract mime-db@1.49.0 extracted to /home/siritorihubot/node_modules/.staging/mime-db-a158c261 (681ms)
-2273 silly extract redis@2.8.0 extracted to /home/siritorihubot/node_modules/.staging/redis-4cb1e9fc (1035ms)
-2274 silly extract debug@3.2.7 extracted to /home/siritorihubot/node_modules/.staging/debug-b30cac34 (436ms)
-2275 silly extract qs@6.5.2 extracted to /home/siritorihubot/node_modules/.staging/qs-bc059a59 (954ms)
-2276 silly extract winston@2.4.5 extracted to /home/siritorihubot/node_modules/.staging/winston-3e2ba7b7 (1671ms)
-2277 silly extract psl@1.8.0 extracted to /home/siritorihubot/node_modules/.staging/psl-929497be (978ms)
-2278 silly extract har-schema@2.0.0 extracted to /home/siritorihubot/node_modules/.staging/har-schema-c30a4025 (576ms)
-2279 silly extract iconv-lite@0.4.24 extracted to /home/siritorihubot/node_modules/.staging/iconv-lite-fc2a038b (1281ms)
-2280 silly extract bluebird@3.7.2 extracted to /home/siritorihubot/node_modules/.staging/bluebird-2eac98d5 (2297ms)
-2281 silly extract sshpk@1.16.1 extracted to /home/siritorihubot/node_modules/.staging/sshpk-3eda9af8 (1612ms)
-2282 silly extract hubot@3.3.2 extracted to /home/siritorihubot/node_modules/.staging/hubot-6399f7ba (1930ms)
-2283 silly extract hubot-slack@4.9.0 extracted to /home/siritorihubot/node_modules/.staging/hubot-slack-b89ecbe0 (1984ms)
-2284 silly extract uri-js@4.4.1 extracted to /home/siritorihubot/node_modules/.staging/uri-js-ae580b6b (1894ms)
-2285 silly extract json-schema@0.2.3 extracted to /home/siritorihubot/node_modules/.staging/json-schema-57fb4a41 (838ms)
-2286 silly extract redis@0.8.4 extracted to /home/siritorihubot/node_modules/.staging/redis-f8654f7b (838ms)
-2287 silly extract ajv@6.12.6 extracted to /home/siritorihubot/node_modules/.staging/ajv-a41208e8 (2146ms)
-2288 silly extract @slack/client@3.16.1-sec.2 extracted to /home/siritorihubot/node_modules/.staging/@slack/client-e4992150 (2591ms)
-2289 silly extract hubot-scripts@2.17.2 extracted to /home/siritorihubot/node_modules/.staging/hubot-scripts-5da6be86 (3057ms)
-2290 silly extract lodash@4.17.21 extracted to /home/siritorihubot/node_modules/.staging/lodash-f47132dc (2469ms)
-2291 timing action:extract Completed in 4017ms
+2253 silly extract media-typer@0.3.0 extracted to /home/siritorihubot/node_modules/.staging/media-typer-9bfb7aea (361ms)
+2254 silly extract merge-descriptors@1.0.1 extracted to /home/siritorihubot/node_modules/.staging/merge-descriptors-e297a32f (416ms)
+2255 silly extract pkginfo@0.4.1 extracted to /home/siritorihubot/node_modules/.staging/pkginfo-af726dd8 (694ms)
+2256 silly extract is-typedarray@1.0.0 extracted to /home/siritorihubot/node_modules/.staging/is-typedarray-2c7a2c23 (517ms)
+2257 silly extract inherits@2.0.4 extracted to /home/siritorihubot/node_modules/.staging/inherits-ea84b8a1 (519ms)
+2258 silly extract ms@2.1.3 extracted to /home/siritorihubot/node_modules/.staging/ms-014ddfed (491ms)
+2259 silly extract has-ansi@2.0.0 extracted to /home/siritorihubot/node_modules/.staging/has-ansi-c6ec7937 (489ms)
+2260 silly extract performance-now@2.1.0 extracted to /home/siritorihubot/node_modules/.staging/performance-now-891256d5 (924ms)
+2261 silly extract mime@1.6.0 extracted to /home/siritorihubot/node_modules/.staging/mime-97e4ce1d (770ms)
+2262 silly extract form-data@2.3.3 extracted to /home/siritorihubot/node_modules/.staging/form-data-a14ad65f (855ms)
+2263 silly extract jsbn@0.1.1 extracted to /home/siritorihubot/node_modules/.staging/jsbn-f6f76796 (644ms)
+2264 silly extract json-stringify-safe@5.0.1 extracted to /home/siritorihubot/node_modules/.staging/json-stringify-safe-0835ec43 (667ms)
+2265 silly extract isstream@0.1.2 extracted to /home/siritorihubot/node_modules/.staging/isstream-ab5b4e81 (604ms)
+2266 silly extract json-schema-traverse@0.4.1 extracted to /home/siritorihubot/node_modules/.staging/json-schema-traverse-33dbf98b (676ms)
+2267 silly extract log@1.4.0 extracted to /home/siritorihubot/node_modules/.staging/log-0a517159 (730ms)
+2268 silly extract getpass@0.1.7 extracted to /home/siritorihubot/node_modules/.staging/getpass-9f589141 (523ms)
+2269 silly extract https-proxy-agent@2.2.4 extracted to /home/siritorihubot/node_modules/.staging/https-proxy-agent-07462cfa (565ms)
+2270 silly extract debug@2.6.9 extracted to /home/siritorihubot/node_modules/.staging/debug-cd11a215 (909ms)
+2271 silly extract mime-db@1.49.0 extracted to /home/siritorihubot/node_modules/.staging/mime-db-a158c261 (840ms)
+2272 silly extract ipaddr.js@1.9.1 extracted to /home/siritorihubot/node_modules/.staging/ipaddr.js-7093d8c0 (604ms)
+2273 silly extract redis@2.8.0 extracted to /home/siritorihubot/node_modules/.staging/redis-4cb1e9fc (1182ms)
+2274 silly extract debug@3.2.7 extracted to /home/siritorihubot/node_modules/.staging/debug-b30cac34 (601ms)
+2275 silly extract qs@6.5.2 extracted to /home/siritorihubot/node_modules/.staging/qs-bc059a59 (1125ms)
+2276 silly extract winston@2.4.5 extracted to /home/siritorihubot/node_modules/.staging/winston-3e2ba7b7 (1824ms)
+2277 silly extract psl@1.8.0 extracted to /home/siritorihubot/node_modules/.staging/psl-929497be (1156ms)
+2278 silly extract iconv-lite@0.4.24 extracted to /home/siritorihubot/node_modules/.staging/iconv-lite-fc2a038b (1369ms)
+2279 silly extract har-schema@2.0.0 extracted to /home/siritorihubot/node_modules/.staging/har-schema-c30a4025 (718ms)
+2280 silly extract sshpk@1.16.1 extracted to /home/siritorihubot/node_modules/.staging/sshpk-3eda9af8 (1691ms)
+2281 silly extract bluebird@3.7.2 extracted to /home/siritorihubot/node_modules/.staging/bluebird-2eac98d5 (2394ms)
+2282 silly extract uri-js@4.4.1 extracted to /home/siritorihubot/node_modules/.staging/uri-js-ae580b6b (2001ms)
+2283 silly extract hubot@3.3.2 extracted to /home/siritorihubot/node_modules/.staging/hubot-6399f7ba (2079ms)
+2284 silly extract json-schema@0.2.3 extracted to /home/siritorihubot/node_modules/.staging/json-schema-57fb4a41 (999ms)
+2285 silly extract hubot-slack@4.9.0 extracted to /home/siritorihubot/node_modules/.staging/hubot-slack-b89ecbe0 (2139ms)
+2286 silly extract redis@0.8.4 extracted to /home/siritorihubot/node_modules/.staging/redis-f8654f7b (974ms)
+2287 silly extract ajv@6.12.6 extracted to /home/siritorihubot/node_modules/.staging/ajv-a41208e8 (2251ms)
+2288 silly extract @slack/client@3.16.1-sec.2 extracted to /home/siritorihubot/node_modules/.staging/@slack/client-e4992150 (2736ms)
+2289 silly extract hubot-scripts@2.17.2 extracted to /home/siritorihubot/node_modules/.staging/hubot-scripts-5da6be86 (3203ms)
+2290 silly extract lodash@4.17.21 extracted to /home/siritorihubot/node_modules/.staging/lodash-f47132dc (2662ms)
+2291 timing action:extract Completed in 4145ms
 2292 silly doReverseSerial unbuild 1608
 2293 silly unbuild siritoriApp@1.0.0
 2294 info lifecycle siritoriApp@1.0.0~preuninstall: siritoriApp@1.0.0
@@ -2847,24 +2847,24 @@
 2517 silly gentlyRm   target: '/home/siritorihubot/node_modules/sshpk/bin/sshpk-conv',
 2517 silly gentlyRm   path: '/home/siritorihubot/node_modules/sshpk'
 2517 silly gentlyRm }
-2518 silly isEverInside /home/siritorihubot/node_modules/.bin/sshpk-sign is not inside /home/siritorihubot/node_modules/sshpk
+2518 silly isEverInside /home/siritorihubot/node_modules/.bin/sshpk-verify is not inside /home/siritorihubot/node_modules/sshpk
 2519 silly gentlyRm parent.path = /home/siritorihubot/node_modules/sshpk
 2520 silly gentlyRm parent.managed = /home/siritorihubot/node_modules/sshpk is in /home/siritorihubot
-2521 silly gentlyRm target.path =  /home/siritorihubot/node_modules/.bin/sshpk-sign
-2522 silly gentlyRm target.symlink = ../sshpk/bin/sshpk-sign
-2523 silly gentlyRm target.managed = /home/siritorihubot/node_modules/.bin/sshpk-sign is in /home/siritorihubot
+2521 silly gentlyRm target.path =  /home/siritorihubot/node_modules/.bin/sshpk-verify
+2522 silly gentlyRm target.symlink = ../sshpk/bin/sshpk-verify
+2523 silly gentlyRm target.managed = /home/siritorihubot/node_modules/.bin/sshpk-verify is in /home/siritorihubot
 2524 silly gentlyRm target.inParent =  {
-2524 silly gentlyRm   target: '/home/siritorihubot/node_modules/sshpk/bin/sshpk-sign',
+2524 silly gentlyRm   target: '/home/siritorihubot/node_modules/sshpk/bin/sshpk-verify',
 2524 silly gentlyRm   path: '/home/siritorihubot/node_modules/sshpk'
 2524 silly gentlyRm }
-2525 silly isEverInside /home/siritorihubot/node_modules/.bin/sshpk-verify is not inside /home/siritorihubot/node_modules/sshpk
+2525 silly isEverInside /home/siritorihubot/node_modules/.bin/sshpk-sign is not inside /home/siritorihubot/node_modules/sshpk
 2526 silly gentlyRm parent.path = /home/siritorihubot/node_modules/sshpk
 2527 silly gentlyRm parent.managed = /home/siritorihubot/node_modules/sshpk is in /home/siritorihubot
-2528 silly gentlyRm target.path =  /home/siritorihubot/node_modules/.bin/sshpk-verify
-2529 silly gentlyRm target.symlink = ../sshpk/bin/sshpk-verify
-2530 silly gentlyRm target.managed = /home/siritorihubot/node_modules/.bin/sshpk-verify is in /home/siritorihubot
+2528 silly gentlyRm target.path =  /home/siritorihubot/node_modules/.bin/sshpk-sign
+2529 silly gentlyRm target.symlink = ../sshpk/bin/sshpk-sign
+2530 silly gentlyRm target.managed = /home/siritorihubot/node_modules/.bin/sshpk-sign is in /home/siritorihubot
 2531 silly gentlyRm target.inParent =  {
-2531 silly gentlyRm   target: '/home/siritorihubot/node_modules/sshpk/bin/sshpk-verify',
+2531 silly gentlyRm   target: '/home/siritorihubot/node_modules/sshpk/bin/sshpk-sign',
 2531 silly gentlyRm   path: '/home/siritorihubot/node_modules/sshpk'
 2531 silly gentlyRm }
 2532 info lifecycle sshpk@1.16.1~postuninstall: sshpk@1.16.1
@@ -3517,7 +3517,7 @@
 3170 verbose unbuild rmStuff async@1.5.2 from /home/siritorihubot/node_modules
 3171 verbose unbuild rmStuff in /home/siritorihubot/node_modules/@slack/client/node_modules
 3172 info lifecycle async@1.5.2~postuninstall: async@1.5.2
-3173 timing action:unbuild Completed in 140ms
+3173 timing action:unbuild Completed in 125ms
 3174 silly doSerial remove 1608
 3175 silly remove /home/siritorihubot/node_modules/@slack/client/node_modules/async
 3176 silly remove /home/siritorihubot/node_modules/ansi-regex
@@ -3680,7 +3680,7 @@
 3333 silly remove /home/siritorihubot/node_modules/hubot-shipit
 3334 silly remove /home/siritorihubot/node_modules/hubot-slack
 3335 silly remove /home/siritorihubot/node_modules/siritoriApp
-3336 timing action:remove Completed in 6227ms
+3336 timing action:remove Completed in 6049ms
 3337 silly doSerial move 1608
 3338 silly doSerial finalize 1608
 3339 silly finalize /home/siritorihubot/node_modules/@slack/client/node_modules/async
@@ -3749,10 +3749,10 @@
 3402 silly finalize /home/siritorihubot/node_modules/json-schema-traverse
 3403 silly finalize /home/siritorihubot/node_modules/json-stringify-safe
 3404 silly finalize /home/siritorihubot/node_modules/lodash
-3405 timing action:finalize Completed in 562ms
+3405 timing action:finalize Completed in 536ms
 3406 verbose unlock done using /home/siritorihubot/.npm/_locks/staging-84e12cf60e694cfb.lock for /home/siritorihubot/node_modules/.staging
 3407 timing stage:rollbackFailedOptional Completed in 1ms
-3408 timing stage:runTopLevelLifecycles Completed in 15140ms
+3408 timing stage:runTopLevelLifecycles Completed in 14737ms
 3409 silly saveTree siritorihubot@0.0.0
 3409 silly saveTree ├── hubot-diagnostics@1.0.0
 3409 silly saveTree ├── hubot-google-images@0.2.7
